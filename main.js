@@ -1,7 +1,7 @@
-// TASK1
+// TASK1 присвоить каждому из следующих значений свою переменную: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false Вывести каждую при помощи console.log , alert, document.write
 let hello = `hello`;
- console.log(hello);
- document.write(hello);
+console.log(hello);
+document.write(hello);
 
 let url = `owu com ua`;
 console.log(url);
@@ -27,8 +27,8 @@ let f = `false`;
 console.log(f);
 document.write(f);
 
-// TASK2
-hello = 'This' ;
+// TASK2 переопределить каждую переменную из задания 1 дав им произвольные значения Вывести каждую при помощи console.log , alert, document.write
+hello = 'This';
 console.log(hello);
 document.write(hello);
 
@@ -40,7 +40,7 @@ randomNumbers = `Sparta`;
 console.log(randomNumbers);
 document.write(randomNumbers);
 
-// TASK3
+// TASK3 Создать 3 числовых и 3 стринговых константы. Вывести каждую при помощи console.log , alert, document.write
 const nameTest = 'Olexander';
 console.log(nameTest);
 document.write(nameTest);
@@ -65,7 +65,7 @@ const num3 = 3;
 console.log(num3);
 document.write(num3);
 
-// TASK4
+// TASK4 при помощи 3х разных prompt() получить 3 слова которые являются вашими ФИО. Для фамилии имени и отчества создать разные переменные. Вывести каждую при помощи console.log , alert, document.write
 const userName = prompt(`What is u name?`);
 console.log(userName);
 document.write(userName);
@@ -78,11 +78,11 @@ const surname = prompt(`What is u surname?`);
 console.log(surname);
 document.write(surname);
 
-// TASK5
+// TASK5 Взять переменные из задания 4 и сконкатенировать их в одной переменной person.
 let person = ` ${userName} ${midlleName} ${surname} `;
 console.log(person);
 
-// TASK6
+// TASK6 Взять задние 4 и 5 и применить его к ФИО всех членов своей семьи.
 const sisName = prompt(`What is u sis name?`);
 console.log(sisName);
 document.write(sisName);
@@ -111,7 +111,7 @@ document.write(momSurname);
 let person1 = `${sisName} ${sisMidlleName} ${sisSurname} ${momName} ${momMidlleName} ${momSurname}`;
 console.log(person1);
 
-// TASK7
+// TASK7  при помощи prompt() получить 3 числа. Привести их к числовому типу при помощи +. вывести их в консоль.
 let userAge = +prompt(`U age ?`);
 console.log(userAge);
 
@@ -121,7 +121,7 @@ console.log(sisAge);
 let momAge = +prompt(`U mom age ?`);
 console.log(momAge);
 
-// TASK8
+// TASK8 при помощи prompt() получить 4 числа. Привести их к числовому типу при помощи parseInt. Сложить их между собой записав результат в переменную result и вывести в консоль браузера
 
 let number1 = prompt(`write number1`);
 number1 = parseInt(number1);
@@ -143,7 +143,7 @@ let result = `${number1 + number2 + number3 + number4}`;
 console.log(result);
 
 
-// TASK9
+// TASK9 при помощи prompt()  получить 3 числа с плавающей точекой. при помощи parseFloat привести их к соответсвующему типу. Сложить их между собой записав результат в переменную result и вывести в консоль браузера
 let number11 = prompt(`write number11`);
 number11 = parseFloat(number11);
 console.log(number11);
@@ -159,45 +159,47 @@ console.log(number33);
 let result1 = `${number11 + number22 + number33}`;
 console.log(result1);
 
-// TASK10
+// TASK10  при помощи prompt()  получить 3 числа с плавающей точекой. Округлить их при помощи Math.round Сложить их между собой записав результат в переменную  и вывести в консоль браузера
 
 let number111 = prompt(`write number111`);
-number111=parseInt(number111)
+number111 = parseInt(number111)
 console.log(Math.round(number111));
 
 let number222 = prompt(`write number222`);
-number222=parseInt(number222)
+number222 = parseInt(number222)
 console.log(Math.round(number222));
 
 let number333 = prompt(`write number333`);
-number333=parseInt(number333);
+number333 = parseInt(number333);
 console.log(Math.round(number333));
 
 let result3 = `${(number111 + number222 + number333)}`;
 console.log(result3);
 
 
-// TASK11
+// TASK11 при помощи prompt()  получить 2 целых числа. Привести их к целочисленному типу. Первое число - это число которое будут возводить в степень. Второе число - это число которое является степенью. При помощи Math.pow возвести первое число в степень второго числа.
 let firstNum = prompt(`Wright first num`);
 firstNum = parseInt(firstNum);
 let secondNum = prompt(`Wright second num`);
 secondNum = parseInt(secondNum);
-console.log(Math.pow( firstNum , secondNum));
+console.log(Math.pow(firstNum, secondNum));
 
-// TASK12
+// TASK12 При помощи оператора опредеоения типа typeof определить типы следующих переменных и вывести их в консоль let a = 100; let b = '100'; let c = true; let d = undefined;
 let a = 100;
-console.log(typeof(a));
+console.log(typeof (a));
 
 let b = '100';
-console.log(typeof(b));
+console.log(typeof (b));
 
 let c = true;
-console.log(typeof(c));
+console.log(typeof (c));
 
 let d = undefined;
 console.log(d);
 
-// TASK13
+// TASK13 Поставьте соответствующий оператор в выражениях что бы получился соответсвующий результат.
+//  В одинаковых выражениях в задании не использовать два одинаковых оператора.
+// Каждое выражение вложить в свою переменную
 let a1 = 5 < 6;
 console.log(a1);
 
